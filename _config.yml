@@ -29,10 +29,27 @@ twitter_username: HLIStPauls
 github_username: ta-hli
 
 # Build settings
+
+# Default theme for Jekyll
 theme: minima
-#theme: jekyll-theme-cayman
+
+# To swap to one of the GitHub Pages supported themes...
+# 1. List of all supported GitHub Pages themes:
+#  https://pages.github.com/themes/
+# 2. Then uncomment the following and comment out theme above
+# 3. Uncomment the jekyll-remote-theme plugin line below
+# 4. In Gemfile comment out
+#      gem "jekyll", "~> 4.2.2"
+#    and uncomment
+#      gem "github-pages", group: :jekyll_plugins
+# 5. bundle update
+# 6. bundle install
+# 7. bundle exec jekyll serve
+#remote_theme: pages-themes/cayman@v0.2.0
+
 plugins:
   - jekyll-feed
+#  - jekyll-remote-theme 
 
 # Exclude from processing.
 # The following items will not be processed, by default.

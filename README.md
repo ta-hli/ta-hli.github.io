@@ -12,8 +12,9 @@ https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/addi
 
 1. Open a shell. If you're on Windows, install something like [Ubuntu on Windows](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10)
 2. Clone the repository: ```git clone https://github.com/ta-hli/ta-hli.github.io.git```
-3. Install ruby and jekyll (the site generator): ```sudo apt install ruby ruby-dev jekyll```
-4. Run the site: ```jekyll serve```
+3. Install ruby (programming language and runtime): ```sudo apt install ruby ruby-dev```
+4. Install bundler (package manager) and jekyll (the site generator): ```gem install bundler jekyll```
+5. Run the site: ```bundle exec jekyll serve```
 
 [Alternatively, see the instructions here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 
